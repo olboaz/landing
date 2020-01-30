@@ -1,0 +1,24 @@
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../../images/background.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.btn-treehouse{
+  padding:15px 30px;
+  background-color: #3AC161;
+  color: white;
+  border-radius: 24px;
+  font-weight: bold;
+  opacity: 0.7;
+  display: inline-block;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+}
